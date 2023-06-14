@@ -1,0 +1,29 @@
+body{
+	margin: 0; padding: 0;
+}
+header{
+	width: 100%;
+	height: 250px;
+	background: seagreen;
+}
+nav{
+	width: 30%;
+	height: 800px;
+	float: left;
+	background-color: yellow;
+}main{
+	width: 50%;
+	height: 800px;
+	float: left;
+	background-color: floralwhite;
+}aside{
+	width: 20%;
+	height: 800px;
+	float: left;
+	background-color: burlywood;
+}footer{
+	width: 100%;
+	height: 70px;
+	clear: both;
+	background-color: black;
+}

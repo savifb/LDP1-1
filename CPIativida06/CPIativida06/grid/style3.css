@@ -1,0 +1,28 @@
+body{
+	margin: 0; padding: 0;
+}
+section{
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 20vh 70vh 10vh;
+	grid-template-areas: "header header header"
+						 "nav main aside"
+						 "footer footer footer";
+}
+header{
+	grid-area: header;
+	background: seagreen;
+}
+nav{
+	grid-area: nav;
+	background-color: yellow;
+}main{
+	grid-area: main;
+	background-color: floralwhite;
+}aside{
+	grid-area: aside;
+	background-color: powderblue;
+}footer{
+	grid-area: footer;
+	background-color: black;
+}
