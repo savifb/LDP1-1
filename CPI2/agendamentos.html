@@ -1,0 +1,111 @@
+<<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+	<title> RFB NO PARQUE </title>
+	<meta charset="utf-8">
+	<meta name="author" content="Sávio Sousa">
+	<meta name="keywords" content="PRB, PROGRESSIVE, PARQUE, AULAS EXERCÍCIOS FÍSICOS, ATIVIDADES, AR LIVRE">
+	<meta name="description" content="Aulas de progressiveFitBall no parque da cidade aos finais
+	de semana">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Oswald:wght@200&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<body>
+	<header>
+	<img id="banner" src="pfb/conteudo/banner.png" alt="banner da logo PFB ao ar LIVRE" width="100%">
+	</header>
+		
+	<nav class="menu">
+			<a class="a-menu" href="#">HOME</a>
+			<a class="a-menu" href="#beneficios">BENEFÍCIOS</a>
+			<a class="a-menu" href="#modalidades">MODALIDADES</a>
+			<a class="a-menu" href="#treinamentos">TREINOS</a>
+			<a class="a-menu" target="_blanck" href="agendamentos.html">AGENDAMENTOS</a>
+
+	</nav>
+
+
+	
+	<h1>AGENDAMENTOS</h1>
+	<hr>
+		<H3 id="titagendamentos" >Agende uma Aula Grátis</H3>
+		<br>
+		<div id="agendamentos">
+			<div align="justify">
+				<form id="nome" name="name" method="POST" action="">
+					<label for="nome">Nome: </label>
+					<input type="text" name="nome" size="80" placeholder="Nome Completo" required>
+					<br>
+					<br>
+					<label for="email">Email: </label>
+					<input id="email" type="email" name="email" placeholder="nome@example.com" size="80"><br><br>
+					<label for="senha">Senha: </label>
+					<input id="senha" type="password" placeholder="senha" size="80" name="senha"><br><br>
+					<label for="cel">Celular: </label>
+					<input id="cel" type="tel" name="cel" placeholder="(XX)9 999999" size="80" pattern="^\(?\d{2}\)\d{5} [-\s]\d{4}.*?$"><br><br>
+					<div class="conteiner">
+						<div class="data-hora-aula">
+							<label for="data">Data: </label>
+							<input id="hora" type="date" name="data"><br><br>
+						</div>
+						
+						<div class="data-hora-aula">
+							<label for="hora">Hora: </label>
+							<input id="hora" type="time" name="hora">
+						</div>
+					
+						<div class="data-hora-aula">
+							<label>Aulas: </label>
+							<input type="number" name="" min="1" max="10" step="1">
+						</div>
+					</div>
+					<label for="nivel">Nível: </label>
+					<select id="nivel"name="nivel">
+						<option value="basico">Iniciante</option>
+						<option value="intermediario" >Intermediário</option>
+						<option value="avancado" >Avançado</option>
+					</select>
+					<fieldset>
+						<legend>Genero</legend>
+						<input id="masc" type="radio" name="genero" value="masc"><label for="masc">Masculino</label><br>
+						<input id="fem" type="radio" name="genero" value="fem"><label for="fem">Feminino</label>
+					</fieldset>
+					<fieldset>
+						<legend>Atividades: </legend>
+						<input id="corr" type="checkbox" name="ativ" value="corrida"><label for="corr">Corrida</label><br>
+						<input id="pila" type="checkbox" name="ativ" value="pilates"><label for="pila">Pilates</label><br>
+						<input id="musc" type="checkbox" name="ativ" value="musculacao"><label for="musc">Musculação</label ><br>
+						<input id="yoga" type="checkbox" name="ativ" value="yoga"><label for="yoga">Yoga</label><br>
+						
+					</fieldset>
+					<label for="mens">Mensagem: </label>
+					<textarea id="mens" cols="80" rows="4"></textarea>
+					<div class="conteiner">
+						<input type="submit" name="bnt-agendar" value="AGENDAR">
+						<input type="reset" name="btn-cancelar" value="CANCELAR"><br></p>
+					</div>
+				</form>
+		</div>
+	</div>
+		
+
+	
+<br>
+<hr>
+<footer><a href="https://www.instagram.com/savio_vine/" target="_blanck">Desenvolvido por Sávio Sousa 2023</footer>
+
+
+
+
+
+
+
+</body>
+</html>
